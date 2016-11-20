@@ -1,3 +1,9 @@
+#Fork of hongtaocai/googlefinance to work with Indian Markets: NSE,BSE
+- Just use NSE symbol or BSE code 
+- no pip support just use git
+
+original readme:
+
 # googlefinance
 Python module to get stock data from Google Finance API
 
