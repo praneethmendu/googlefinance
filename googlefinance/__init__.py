@@ -52,7 +52,7 @@ def request(symbols):
 
 def requestNews(symbol):
     url = buildNewsUrl(symbol)
-    print "url: ", url
+    print("url: ", url)
     req = Request(url)
     resp = urlopen(req)
     content = resp.read()
@@ -101,6 +101,11 @@ def getQuotes(symbols):
     '''
     if type(symbols) == type('str'):
         symbols = [symbols]
+    for symbol in symbols:
+        if '0' < symbol[0] < '9':
+            symbol = 'BOM:' + symbol
+        else:
+            symbol = 'NSE:' + symbol
     content = json.loads(request(symbols))
     return replaceKeys(content);
 
