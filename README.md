@@ -1,6 +1,12 @@
 #Fork of hongtaocai/googlefinance to work with Indian Markets: NSE,BSE
 - Just use NSE symbol or BSE code 
-- no pip support install with git
+- no pip support install with git like so :
+	in the chosen directory:
+	$git clone https://github.com/praneethmendu/googlefinind.git
+	$cd googlefinind
+	$sudo python setup.py install
+	(try it out)
+	$python example.py
 
 original readme:
 
