@@ -1,6 +1,6 @@
 #Fork of hongtaocai/googlefinance to work with Indian Markets: NSE,BSE
 - Just use NSE symbol or BSE code 
-- no pip support just use git
+- no pip support install with git
 
 original readme:
 
